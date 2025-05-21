@@ -58,4 +58,6 @@ for test_file in test_files:
 
 print(f'Total: {total_counter:,} words.')
 
+#Atpažinti autorių
+
 afm.predict_author(train_files, names, poem_file)
